@@ -1,0 +1,203 @@
+/* ##### Font ##### */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;700&display=swap');
+
+/* ##### Universal Selector ##### */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+/* ##### Main ##### */
+
+.all-conteiners{
+    display: flex;
+}
+
+.conteiner-contents{
+    width: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner-riot figure{
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-riot img{
+    width: 180px;
+}
+
+.login{
+    width: 100%;
+    margin-top: 30px;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+.conteiner-form form{
+    width: 450px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.conteiner-form input{
+    background-color: #E8E6E6;
+    width: 200px;
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.7rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.all-social-media{
+    width: 200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facebook-social-media{
+    background-color: #2051FF;
+    width: 50px;   
+    height: 20px;
+    padding: 2px;
+    border-radius: 3px;
+    transition: 0.1s all;
+}
+
+.facebook-social-media:hover{
+    transform: scale(1.1);
+}
+
+.facebook-social-media figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+.facebook-social-media img{
+    width: 15px;
+}
+
+.google-social-media{
+    background-color: #8A0000;
+    width: 50px;   
+    height: 20px;
+    padding: 2px;
+    border-radius: 3px;
+    transition: 0.1s all;
+}
+
+.google-social-media:hover{
+    transform: scale(1.1);
+}
+
+.google-social-media figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.google-social-media img{
+    width: 15px;
+}
+
+.apple-social-media{
+    background-color: black;
+    width: 50px;   
+    height: 20px;
+    padding: 2px;
+    border-radius: 3px;
+    transition: 0.1s all;
+}
+
+.apple-social-media:hover{
+    transform: scale(1.1);
+}
+
+.apple-social-media figure{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.apple-social-media img{
+    width: 15px;
+}
+
+.conteiner-checkbox{
+    width: 174px;
+    margin-top: 10px;
+}
+
+.conteiner-checkbox label{
+    font-size: 0.8rem;
+    font-weight: 700;
+}
+
+.conteiner-button{
+    margin-top: 60px;
+    margin-bottom: 10px;
+}
+
+.conteiner-button figure{
+    background-color: #FF002E;
+    width: 35px;
+    height: 35px;
+    padding: 4px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: 0.1s all;
+}
+
+.conteiner-button figure:hover{
+    transform: scale(1.1);
+}
+
+.conteiner-button img{
+    width: 30px;
+}
+
+.conteiner-remaining{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-remaining a{
+    color: #A6A6A6;
+    font-size: 0.7rem;
+    margin: 2px;
+    text-decoration: none;
+}
+
+.conteiner-remaining a:hover{
+    border-bottom: 1px solid #A6A6A6;
+}
+
+.conteiner-img img{
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* ##### Responsive ##### */
