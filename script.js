@@ -1,11 +1,16 @@
-const [login, password] = document.querySelectorAll(".conteiner-form input");
-const click = document.querySelector(".conteiner-button button")
+const login = document.querySelector(".user");
+const password = document.querySelector(".password")
+const arrow = document.querySelector(".arrow")
 
 function logar(){
-    if(login.value.lenght[0] === "E" && password.value.lenght >= 8){
-        click.removeAttribute("disabled");
+    if(login.value && password.value.length >= 8){
+        arrow.classList.add("opacity");
+        arrow.classList.remove("arrow")
+        arrow.removeAttribute("disabled");
     }else{
-        click.setAttribute("disabled", "disabled");
+        arrow.classList.remove("opacity");
+        arrow.classList.add("arrow");
+        arrow.setAttribute("disabled", "disabled");
     }
 }
 
